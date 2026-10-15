@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Friendly Trails Near Iowa City - Prairie & Pines</title>
+    <style>
+        :root {
+            --primary: #2d5a27;
+            --secondary: #8c6d46;
+            --accent: #e8a838;
+            --bg-light: #f4f6f0;
+            --text-dark: #222222;
+            --white: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--bg-light);
+        }
+
+        .disclaimer {
+            background-color: #d9534f;
+            color: var(--white);
+            text-align: center;
+            padding: 10px 15px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        header {
+            background-color: var(--primary);
+            color: var(--white);
+            padding: 20px 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            background-color: var(--secondary);
+            padding: 10px;
+            text-align: center;
+            sticky: top;
+        }
+
+        nav a {
+            color: var(--white);
+            text-decoration: none;
+            padding: 8px 12px;
+            display: inline-block;
+            font-weight: 500;
+            border-radius: 4px;
+            margin: 2px;
+        }
+
+        nav a:hover, nav a.active {
+            background-color: var(--primary);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px 15px;
+        }
+
+        .tip-box {
+            background-color: #e8f0e6;
+            border-left: 5px solid var(--primary);
+            padding: 15px;
+            margin-bottom: 25px;
+            border-radius: 4px;
+        }
+
+        .tip-box h3 {
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+
+        .trail-card {
+            background-color: var(--white);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            border-top: 4px solid var(--secondary);
+        }
+
+        .trail-card h2 {
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+
+        .rule-tag {
+            display: inline-block;
+            background-color: var(--accent);
+            color: var(--text-dark);
+            font-weight: bold;
+            font-size: 0.85rem;
+            padding: 3px 8px;
+            border-radius: 3px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #1a3317;
+            color: var(--white);
+            padding: 25px 15px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="disclaimer">
+        This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.
+    </div>
+
+    <header>
+        <h1>Prairie & Pines Trail Guides</h1>
+        <p>Dog Friendly Trails Near Iowa City</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="best-walking-trails.html">Best Iowa City Trails</a>
+        <a href="dog-friendly-trails.html" class="active">Dog Friendly Trails</a>
+        <a href="lake-macbride-hiking.html">Lake Macbride Trails</a>
+    </nav>
+
+    <div class="container">
+        <div class="tip-box">
+            <h3>Iowa City Dog Hiking Etiquette</h3>
+            <p>All city and county nature trails around Iowa City require dogs to be kept on a physical leash no longer than 6 feet at all times. Always pack out waste, carry adequate water for your pet, and check your dog for ticks after every woodland walk.</p>
+        </div>
+
+        <article class="trail-card">
+            <h2>Kinnick Signature Trail & Waterworks Park</h2>
+            <span class="rule-tag">Leash Required (6ft max)</span>
+            <p>Waterworks Park offers vast open green space, shaded dirt tracks, and wide crushed-gravel pathways surrounding prairie wetlands. It is ideal for active dogs who enjoy plenty of scent work and quiet trails away from heavy city traffic. Water stations are located near the primary parking lot on Dubuque Street.</p>
+        </article>
+
+        <article class="trail-card">
+            <h2>Squire Point & Woodpecker Nature Trail</h2>
+            <span class="rule-tag">Leash Required | Rocky Terrain</span>
+            <p>Located just north of Iowa City on Coralville Lake, these interconnected timber paths feature earthen routes, rocky steps, and wooden boardwalks leading to scenic lake overlooks. Dogs love the forested shade and winding paths, though owners should ensure their dogs are nimble enough for occasional steep steps and exposed tree roots.</p>
+        </article>
+
+        <article class="trail-card">
+            <h2>Thornberry Off-Leash Dog Park Trails</h2>
+            <span class="rule-tag">Off-Leash Allowed inside Fenced Area</span>
+            <p>For dogs that need freedom to run off-leash, Thornberry Dog Park on Foster Road offers dedicated fenced areas, including a special pond area where dogs can swim safely. Surrounding the fenced paddocks are short, paved walking paths where you can stroll while your dog interacts safely within controlled, double-gated zones.</p>
+        </article>
+    </div>
+
+    <footer>
+        <p>Prairie & Pines Trail Guides - 123 Iowa Avenue, Iowa City, IA 52240</p>
+        <p class="disclaimer">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</p>
+    </footer>
+
+</body>
+</html>
