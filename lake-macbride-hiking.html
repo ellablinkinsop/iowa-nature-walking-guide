@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lake Macbride Hiking Trails Guide - Prairie & Pines</title>
+    <style>
+        :root {
+            --primary: #2d5a27;
+            --secondary: #8c6d46;
+            --accent: #e8a838;
+            --bg-light: #f4f6f0;
+            --text-dark: #222222;
+            --white: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--bg-light);
+        }
+
+        .disclaimer {
+            background-color: #d9534f;
+            color: var(--white);
+            text-align: center;
+            padding: 10px 15px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        header {
+            background-color: var(--primary);
+            color: var(--white);
+            padding: 20px 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            background-color: var(--secondary);
+            padding: 10px;
+            text-align: center;
+            sticky: top;
+        }
+
+        nav a {
+            color: var(--white);
+            text-decoration: none;
+            padding: 8px 12px;
+            display: inline-block;
+            font-weight: 500;
+            border-radius: 4px;
+            margin: 2px;
+        }
+
+        nav a:hover, nav a.active {
+            background-color: var(--primary);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px 15px;
+        }
+
+        .intro {
+            background-color: var(--white);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .trail-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        .trail-detail {
+            background-color: var(--white);
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            border-left: 5px solid var(--primary);
+        }
+
+        .trail-detail h3 {
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+
+        .trail-specs {
+            list-style: none;
+            margin-bottom: 12px;
+            font-size: 0.95rem;
+            color: var(--secondary);
+            font-weight: 500;
+        }
+
+        .trail-specs li {
+            margin-bottom: 3px;
+        }
+
+        footer {
+            background-color: #1a3317;
+            color: var(--white);
+            padding: 25px 15px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="disclaimer">
+        This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.
+    </div>
+
+    <header>
+        <h1>Prairie & Pines Trail Guides</h1>
+        <p>Lake Macbride Hiking Trails Guide</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="best-walking-trails.html">Best Iowa City Trails</a>
+        <a href="dog-friendly-trails.html">Dog Friendly Trails</a>
+        <a href="lake-macbride-hiking.html" class="active">Lake Macbride Trails</a>
+    </nav>
+
+    <div class="container">
+        <section class="intro">
+            <h2>Exploring Lake Macbride State Park</h2>
+            <p>Located just 15 minutes north of Iowa City near Solon, Lake Macbride State Park offers over 2,100 acres of scenic outdoor recreation. Featuring rugged shoreline footpaths, limestone multi-use trails, and unique coral reef spillway geology, Lake Macbride is Eastern Iowa's premiere destination for day hikes.</p>
+        </section>
+
+        <section class="trail-grid">
+            <article class="trail-detail">
+                <h3>Beach to Spillway Trail</h3>
+                <ul class="trail-specs">
+                    <li>Length: 1.5 miles (one way)</li>
+                    <li>Terrain: Crushed limestone and earth</li>
+                    <li>Difficulty: Easy to Moderate</li>
+                </ul>
+                <p>This trail connects the main swimming beach to the historic stone spillway. Following the natural curves of the shoreline, hikers enjoy shaded oak and hickory canopy cover with constant views of the water. The endpoint spillway is famous for exposed Devonian-era fossil formations that are visible when water levels allow.</p>
+            </article>
+
+            <article class="trail-detail">
+                <h3>Osprey Trail</h3>
+                <ul class="trail-specs">
+                    <li>Length: 2.3 miles loop</li>
+                    <li>Terrain: Dirt paths with exposed roots and incline</li>
+                    <li>Difficulty: Moderate</li>
+                </ul>
+                <p>Winding through the quieter northern unit of the park, Osprey Trail takes hikers deep into mature hardwood forest and along elevated ridges overlooking hidden coves. Keep your eyes peeled for nesting raptors, white-tailed deer, and spring wildflowers. Waterproof footwear is recommended during spring thawing.</p>
+            </article>
+
+            <article class="trail-detail">
+                <h3>Lake Macbride Multi-Use Trail</h3>
+                <ul class="trail-specs">
+                    <li>Length: 5.0 miles</li>
+                    <li>Terrain: Compact crushed limestone</li>
+                    <li>Difficulty: Easy</li>
+                </ul>
+                <p>Connecting Solon directly to Lake Macbride State Park, this wide, well-maintained limestone path is perfect for long-distance walkers, trail runners, and casual bicyclists. It offers gentle grades, clear sightlines, and multiple bench resting stops along restored tallgrass prairie stretches.</p>
+            </article>
+        </section>
+    </div>
+
+    <footer>
+        <p>Prairie & Pines Trail Guides - 123 Iowa Avenue, Iowa City, IA 52240</p>
+        <p class="disclaimer">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</p>
+    </footer>
+
+</body>
+</html>
