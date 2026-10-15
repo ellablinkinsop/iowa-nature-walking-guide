@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Walking Trails Near Iowa City - Prairie & Pines</title>
+    <style>
+        :root {
+            --primary: #2d5a27;
+            --secondary: #8c6d46;
+            --accent: #e8a838;
+            --bg-light: #f4f6f0;
+            --text-dark: #222222;
+            --white: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--bg-light);
+        }
+
+        .disclaimer {
+            background-color: #d9534f;
+            color: var(--white);
+            text-align: center;
+            padding: 10px 15px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        header {
+            background-color: var(--primary);
+            color: var(--white);
+            padding: 20px 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            background-color: var(--secondary);
+            padding: 10px;
+            text-align: center;
+            sticky: top;
+        }
+
+        nav a {
+            color: var(--white);
+            text-decoration: none;
+            padding: 8px 12px;
+            display: inline-block;
+            font-weight: 500;
+            border-radius: 4px;
+            margin: 2px;
+        }
+
+        nav a:hover, nav a.active {
+            background-color: var(--primary);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px 15px;
+        }
+
+        .trail-card {
+            background-color: var(--white);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            border-top: 4px solid var(--primary);
+        }
+
+        .trail-card h2 {
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+
+        .meta {
+            background-color: #eef2eb;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .meta span {
+            font-weight: bold;
+            color: var(--secondary);
+        }
+
+        footer {
+            background-color: #1a3317;
+            color: var(--white);
+            padding: 25px 15px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="disclaimer">
+        This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.
+    </div>
+
+    <header>
+        <h1>Prairie & Pines Trail Guides</h1>
+        <p>Best Walking Trails Near Iowa City</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="best-walking-trails.html" class="active">Best Iowa City Trails</a>
+        <a href="dog-friendly-trails.html">Dog Friendly Trails</a>
+        <a href="lake-macbride-hiking.html">Lake Macbride Trails</a>
+    </nav>
+
+    <div class="container">
+        <p style="margin-bottom: 20px;">Looking for convenient, scenic, and well-maintained walking paths right in the Iowa City area? Our team has ranked the top routes based on safety, pavement quality, scenic views, and ease of parking.</p>
+
+        <article class="trail-card">
+            <h2>1. Iowa River Corridor Trail</h2>
+            <div class="meta">
+                <div><span>Distance:</span> 6.2 miles total</div>
+                <div><span>Surface:</span> Paved asphalt</div>
+                <div><span>Difficulty:</span> Easy</div>
+            </div>
+            <p>Running alongside the Iowa River through the heart of the University of Iowa campus and connecting to Coralville, this flat, fully paved trail is ideal for casual walkers, parents with strollers, and morning joggers. You will pass iconic locations such as the Art Building West, the Hancher Auditorium grounds, and several historic bridges. Multiple access points offer public restrooms and benches.</p>
+        </article>
+
+        <article class="trail-card">
+            <h2>2. Hickory Hill Park Outer Loop</h2>
+            <div class="meta">
+                <div><span>Distance:</span> 3.1 miles</div>
+                <div><span>Surface:</span> Crushed limestone & Dirt</div>
+                <div><span>Difficulty:</span> Moderate</div>
+            </div>
+            <p>Located on the northeast side of Iowa City, Hickory Hill Park provides a tranquil forest escape without leaving the city limits. The outer loop winds through dense hardwood timber, across small timber bridges over Ralston Creek, and past restored prairie stands. It features moderate elevation gains that provide a good light workout while remaining accessible to walkers of most fitness levels.</p>
+        </article>
+
+        <article class="trail-card">
+            <h2>3. Terry Trueblood Recreation Area Lake Loop</h2>
+            <div class="meta">
+                <div><span>Distance:</span> 1.8 miles loop</div>
+                <div><span>Surface:</span> Paved concrete</div>
+                <div><span>Difficulty:</span> Easy</div>
+            </div>
+            <p>Circling Sand Lake on the south side of Iowa City, this wide concrete loop path provides continuous waterfront views. It is completely flat, smoothly paved, and offers zero traffic hazards, making it one of the most popular walking destinations for families and seniors. The park features ample parking, modern restrooms, and outdoor picnic pavilions near the park lodge.</p>
+        </article>
+    </div>
+
+    <footer>
+        <p>Prairie & Pines Trail Guides - 123 Iowa Avenue, Iowa City, IA 52240</p>
+        <p class="disclaimer">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</p>
+    </footer>
+
+</body>
+</html>
