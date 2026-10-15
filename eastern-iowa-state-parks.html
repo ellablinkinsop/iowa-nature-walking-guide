@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eastern Iowa State Parks - Prairie & Pines Trail Guides</title>
+    <style>
+        :root {
+            --primary: #2d5a27;
+            --secondary: #8c6d46;
+            --accent: #e8a838;
+            --bg-light: #f4f6f0;
+            --text-dark: #222222;
+            --white: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--bg-light);
+        }
+
+        .disclaimer {
+            background-color: #d9534f;
+            color: var(--white);
+            text-align: center;
+            padding: 10px 15px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        header {
+            background-color: var(--primary);
+            color: var(--white);
+            padding: 20px 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            background-color: var(--secondary);
+            padding: 10px;
+            text-align: center;
+            sticky: top;
+        }
+
+        nav a {
+            color: var(--white);
+            text-decoration: none;
+            padding: 8px 12px;
+            display: inline-block;
+            font-weight: 500;
+            border-radius: 4px;
+            margin: 2px;
+        }
+
+        nav a:hover, nav a.active {
+            background-color: var(--primary);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px 15px;
+        }
+
+        .intro {
+            background-color: var(--white);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .park-card {
+            background-color: var(--white);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            border-top: 4px solid var(--primary);
+        }
+
+        .park-card h2 {
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+
+        .park-info {
+            background-color: #eef2eb;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            margin-bottom: 12px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .park-info span {
+            font-weight: bold;
+            color: var(--secondary);
+        }
+
+        footer {
+            background-color: #1a3317;
+            color: var(--white);
+            padding: 25px 15px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="disclaimer">
+        This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.
+    </div>
+
+    <header>
+        <h1>Prairie & Pines Trail Guides</h1>
+        <p>Eastern Iowa State Parks Guide</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="best-walking-trails.html">Best Iowa City Trails</a>
+        <a href="dog-friendly-trails.html">Dog Friendly Trails</a>
+        <a href="lake-macbride-hiking.html">Lake Macbride Trails</a>
+        <a href="eastern-iowa-state-parks.html" class="active">Eastern Iowa State Parks</a>
+    </nav>
+
+    <div class="container">
+        <section class="intro">
+            <h2>Exploring Beyond Johnson County</h2>
+            <p>Eastern Iowa is home to some of the Midwest's most unique state parks, ranging from driftless blufflands to limestone caves and ancient glacial valleys. If you are looking to venture beyond the immediate Iowa City area for a day trip, here are three must-visit state parks within a 90-minute drive.</p>
+        </section>
+
+        <article class="park-card">
+            <h2>Maquoketa Caves State Park</h2>
+            <div class="park-info">
+                <div><span>Location:</span> Maquoketa, IA (approx. 65 miles northeast)</div>
+                <div><span>Highlights:</span> 16 natural caves & limestone bluffs</div>
+            </div>
+            <p>One of Iowa's most unique geological destinations, Maquoketa Caves features a six-mile trail system winding through towering bluffs, natural stone bridges, and dark caverns. Walkers can explore light hiking loops above ground or equip themselves with flashlights and old clothes to crawl through accessible limestone caves.</p>
+        </article>
+
+        <article class="park-card">
+            <h2>Palisades-Dows State Preserve & Palisades-Kepler State Park</h2>
+            <div class="park-info">
+                <div><span>Location:</span> Mt. Vernon, IA (approx. 20 miles north)</div>
+                <div><span>Highlights:</span> Cedar River cliffs & river valley trails</div>
+            </div>
+            <p>Dramatically perched along the Cedar River, Palisades-Kepler features rugged limestone palisades jutting above the water. Deep woodland hiking trails follow old river bluffs, offering spectacular autumn leaf views and abundant birdwatching opportunities along five miles of interconnected trails.</p>
+        </article>
+
+        <article class="park-card">
+            <h2>Wildcat Den State Park</h2>
+            <div class="park-info">
+                <div><span>Location:</span> Muscatine, IA (approx. 45 miles southeast)</div>
+                <div><span>Highlights:</span> Pine Creek Grist Mill & sandstone rock formations</div>
+            </div>
+            <p>Wildcat Den combines rich history with steep, scenic hiking paths. Visitors can tour the historic 1848 Pine Creek Grist Mill before hiking trails that navigate past sandstone formations like Steamboat Rock and Devil's Punchbowl. It offers a moderate challenge with rewarding overlooks.</p>
+        </article>
+    </div>
+
+    <footer>
+        <p>Prairie & Pines Trail Guides - 123 Iowa Avenue, Iowa City, IA 52240</p>
+        <p class="disclaimer">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</p>
+    </footer>
+
+</body>
+</html>
