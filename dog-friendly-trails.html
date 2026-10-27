@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dog Friendly Trails Near Iowa City - Prairie & Pines</title>
+    <title>Dog-Friendly Trails - Prairie & Pines Trail Guides</title>
     <style>
         :root {
             --primary: #2d5a27;
@@ -13,142 +13,34 @@
             --text-dark: #222222;
             --white: #ffffff;
         }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
+        * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: var(--text-dark);
-            background-color: var(--bg-light);
+            line-height: 1.6; color: var(--text-dark); background-color: var(--bg-light);
         }
-
         .disclaimer {
-            background-color: #d9534f;
-            color: var(--white);
-            text-align: center;
-            padding: 10px 15px;
-            font-size: 0.9rem;
-            font-weight: bold;
+            background-color: #d9534f; color: var(--white); text-align: center; padding: 10px 15px; font-size: 0.9rem; font-weight: bold;
         }
-
-        header {
-            background-color: var(--primary);
-            color: var(--white);
-            padding: 20px 15px;
-            text-align: center;
-        }
-
-        header h1 {
-            font-size: 2rem;
-            margin-bottom: 5px;
-        }
-
-        header p {
-            font-size: 1rem;
-            opacity: 0.9;
-        }
-
-        nav {
-            background-color: var(--secondary);
-            padding: 10px;
-            text-align: center;
-            sticky: top;
-        }
-
-        nav a {
-            color: var(--white);
-            text-decoration: none;
-            padding: 8px 12px;
-            display: inline-block;
-            font-weight: 500;
-            border-radius: 4px;
-            margin: 2px;
-        }
-
-        nav a:hover, nav a.active {
-            background-color: var(--primary);
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px 15px;
-        }
-
-        .tip-box {
-            background-color: #e8f0e6;
-            border-left: 5px solid var(--primary);
-            padding: 15px;
-            margin-bottom: 25px;
-            border-radius: 4px;
-        }
-
-        .tip-box h3 {
-            color: var(--primary);
-            margin-bottom: 5px;
-        }
-
-        .trail-card {
-            background-color: var(--white);
-            border-radius: 8px;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-            border-top: 4px solid var(--secondary);
-        }
-
-        .trail-card h2 {
-            color: var(--primary);
-            margin-bottom: 5px;
-        }
-
-        .rule-tag {
-            display: inline-block;
-            background-color: var(--accent);
-            color: var(--text-dark);
-            font-weight: bold;
-            font-size: 0.85rem;
-            padding: 3px 8px;
-            border-radius: 3px;
-            margin-bottom: 10px;
-        }
-
-        footer {
-            background-color: #1a3317;
-            color: var(--white);
-            padding: 25px 15px;
-            margin-top: 40px;
-        }
-
-        footer p {
-            margin-bottom: 10px;
-            text-align: center;
-        }
-
-        @media (max-width: 600px) {
-            nav a {
-                display: block;
-                margin: 5px 0;
-            }
-        }
+        header { background-color: var(--primary); color: var(--white); padding: 20px 15px; text-align: center; }
+        header h1 { font-size: 2rem; margin-bottom: 5px; }
+        nav { background-color: var(--secondary); padding: 10px; text-align: center; }
+        nav a { color: var(--white); text-decoration: none; padding: 8px 12px; display: inline-block; font-weight: 500; border-radius: 4px; margin: 2px; }
+        nav a:hover, nav a.active { background-color: var(--primary); }
+        .container { max-width: 900px; margin: 0 auto; padding: 20px 15px; }
+        .trail-card { background-color: var(--white); border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .trail-card h2 { color: var(--primary); margin-bottom: 10px; }
+        .meta { display: flex; gap: 15px; font-size: 0.9rem; color: var(--secondary); font-weight: bold; margin-bottom: 10px; flex-wrap: wrap; }
+        footer { background-color: #1a3317; color: var(--white); padding: 25px 15px; margin-top: 40px; text-align: center; }
+        footer p { margin-bottom: 10px; }
+        @media (max-width: 600px) { nav a { display: block; margin: 5px 0; } }
     </style>
 </head>
 <body>
-
-    <div class="disclaimer">
-        This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.
-    </div>
-
+    <div class="disclaimer">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
     <header>
         <h1>Prairie & Pines Trail Guides</h1>
-        <p>Dog Friendly Trails Near Iowa City</p>
+        <p>Dog-Friendly Trails Near Iowa City</p>
     </header>
-
     <nav>
         <a href="index.html">Home</a>
         <a href="best-walking-trails.html">Best Iowa City Trails</a>
@@ -157,36 +49,28 @@
         <a href="eastern-iowa-state-parks.html">Eastern Iowa State Parks</a>
         <a href="photos.html">Trail Photos</a>
     </nav>
-
     <div class="container">
-        <div class="tip-box">
-            <h3>Iowa City Dog Hiking Etiquette</h3>
-            <p>All city and county nature trails around Iowa City require dogs to be kept on a physical leash no longer than 6 feet at all times. Always pack out waste, carry adequate water for your pet, and check your dog for ticks after every woodland walk.</p>
+        <p style="margin-bottom: 20px;">Exploring with your four-legged companion is a fantastic way to experience Johnson County. Here are our top-rated dog-friendly routes and local leash guidelines.</p>
+
+        <div style="background-color: var(--white); border-radius: 8px; padding: 20px; margin: 25px 0; border: 1px solid #e0e0e0; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+            <h3 style="color: var(--primary); margin-bottom: 10px;">🕒 Dog Park Hours & Seasonal Rules</h3>
+            <p><strong>Hours:</strong> Open daily from sunrise to sunset.</p>
+            <p style="margin-top: 8px;"><strong>Seasonal Advice:</strong> Off-leash areas remain open during winter months, though water fountains are shut off from November through April to prevent pipe freezing. Be sure to bring your own water for pets during winter walks!</p>
         </div>
 
         <article class="trail-card">
-            <h2>Kinnick Signature Trail & Waterworks Park</h2>
-            <span class="rule-tag">Leash Required (6ft max)</span>
-            <p>Waterworks Park offers vast open green space, shaded dirt tracks, and wide crushed-gravel pathways surrounding prairie wetlands. It is ideal for active dogs who enjoy plenty of scent work and quiet trails away from heavy city traffic. Water stations are located near the primary parking lot on Dubuque Street.</p>
-        </article>
-
-        <article class="trail-card">
-            <h2>Squire Point & Woodpecker Nature Trail</h2>
-            <span class="rule-tag">Leash Required | Rocky Terrain</span>
-            <p>Located just north of Iowa City on Coralville Lake, these interconnected timber paths feature earthen routes, rocky steps, and wooden boardwalks leading to scenic lake overlooks. Dogs love the forested shade and winding paths, though owners should ensure their dogs are nimble enough for occasional steep steps and exposed tree roots.</p>
-        </article>
-
-        <article class="trail-card">
-            <h2>Thornberry Off-Leash Dog Park Trails</h2>
-            <span class="rule-tag">Off-Leash Allowed inside Fenced Area</span>
-            <p>For dogs that need freedom to run off-leash, Thornberry Dog Park on Foster Road offers dedicated fenced areas, including a special pond area where dogs can swim safely. Surrounding the fenced paddocks are short, paved walking paths where you can stroll while your dog interacts safely within controlled, double-gated zones.</p>
+            <h2>1. Thornberry Dog Park Trail</h2>
+            <div class="meta">
+                <div><span>Area:</span> North Iowa City</div>
+                <div><span>Surface:</span> Grass & Packed Dirt</div>
+                <div><span>Leash Rule:</span> Off-Leash Fenced Area</div>
+            </div>
+            <p>Featuring wide open spaces, agility features, and fenced enclosure zones, Thornberry is Iowa City's premier destination for letting dogs run free while enjoying scenic walking paths.</p>
         </article>
     </div>
-
     <footer>
         <p>Prairie & Pines Trail Guides - 123 Iowa Avenue, Iowa City, IA 52240</p>
         <p class="disclaimer">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</p>
     </footer>
-
 </body>
 </html>
